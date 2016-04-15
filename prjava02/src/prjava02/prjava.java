@@ -8,6 +8,8 @@ public class prjava {
 	public static void main(String[] args) {
 		System.out.println("versió 0.1 del projecte prjava02");
 		try {
+			System.out.println("Creació d'una branca del projecte prjava02");
+
 			InetAddress adreça = InetAddress.getLocalHost();
 			String hostname = adreça.getHostName();
 			System.out.println("hostname=" + hostname);
